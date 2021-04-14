@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Register</title>
+  </head>
+  <body>
+
+    <header>
+      <h1>Register Form</h1>
+    </header>
+
+    <form method="GET">
+      <table>
+      <tr>
+       <th style="text-align: left">First name:</th>
+       <th><input type="text" name="firstname"></th><br>
+      </tr>
+      <tr>
+       <th style="text-align: left">Last name:</th>
+       <th><input type="text" name="lasttname"></th><br>
+     </tr>
+     <tr>
+      <th style="text-align: left">Email:</th>
+      <th><input type="email" name="email"></th><br>
+    </tr>
+    <tr>
+      <th style="text-align: left">Password:</th>
+      <th><input type="password" min="5" name="password"><br></th>
+    </tr>
+      <tr>
+        <th style="text-align: left">Birthday:</th>
+        <th><input type="date" name="birthday"><br></th>
+      </tr>
+      <tr>
+        <th style="text-align: left">Gender:</th>
+        <th>
+          <input type="radio" name="gender" value="male">Male
+          <input type="radio" name="gender" value="female">Female
+          <input type="radio" name="gender" value="other">Other
+        </th>
+      </tr>
+      <tr>
+        <th style="text-align: left">Pets:</th>
+        <th>
+          <input type="checkbox" name="pets" value="cats">Cats
+          <input type="checkbox" name="pets" value="dogs"> Dogs
+          <input type="checkbox" name="pets "value="birds"> Birds
+        </th>
+      </tr>
+      <tr>
+        <th style="text-align: left">Car:</th>
+        <th>
+          <select name="car">
+            <option value="none">none</option>
+            <option value="volvo">Volvo</option>
+            <option value="audi">Audi</option>
+            <option value="toyota">Toyota</option>
+          </select>
+        </th>
+      </tr>
+        <tr>
+          <th><input type="submit" value="Register"></th>
+          <th><input type="submit" value="Clear"></th>
+        </tr>
+    </table>
+    </form>
+
+    <footer>
+      <hr>
+      <a href="index.html">Go Back!</a>
+    </footer>
+
+
+  </body>
+</html>
