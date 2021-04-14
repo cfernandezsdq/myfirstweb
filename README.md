@@ -1,2 +1,2 @@
-# myfisrtweb
- A ugly website to test HTML5.
+# my first web
+ An ugly website to test HTML5.
